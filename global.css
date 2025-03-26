@@ -16,8 +16,10 @@ body {
   background-color: rgba(251, 252, 252, 1);
 }
 
-/* main {
+main {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
-} */
+  margin-inline: 2rem 2rem;
+}
+ 
