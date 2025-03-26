@@ -221,7 +221,7 @@ nav {
   display: grid;
   justify-content: center;
   justify-items: center;
-  margin-inline: 9.375rem 9.375rem;
+  /* margin-inline: 9.375rem 9.375rem; */
   gap: 2.5rem;
   padding: 4rem;
   background-color: rgba(23, 51, 45, 1);
@@ -323,11 +323,180 @@ nav {
   display: grid;
   justify-content: center;
   justify-items: center;
-  margin-inline: 9.375rem 9.375rem;
+  /* margin-inline: 9.375rem 9.375rem; */
   gap: 2.5rem;
   padding: 4rem;
   background-color: rgb(255, 255, 255);
   border-radius: 3.125rem;
   border: 0.05rem solid rgba(242, 242, 242, 1);
   box-shadow: 0 0.5rem 2.869rem rgba(23, 51, 45, 0.05);
+  margin-block-end: 7rem;
+}
+
+.third-section-texts {
+  max-width: 40rem;
+}
+
+.third-section-head {
+  color: rgba(27, 30, 29, 1);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-block-end: 1rem;
+  width: 100%;
+}
+
+.third-section-body {
+  color: rgba(97, 107, 104, 1);
+  text-align: center;
+}
+
+.third-section-main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.third-section-main-text {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Ouline implementation start */
+.outline-section {
+  margin-inline-end: 1.5rem;
+}
+
+.green-line {
+  width: 1rem;
+  height: 5.72rem;
+  background-color: rgba(23, 51, 45, 1);
+  border-radius: 10rem;
+  margin-block-end: 1.2rem;
+}
+
+.orange-line {
+  width: 1rem;
+  height: 22.425rem;
+  background-color: rgba(230, 102, 10, 1);
+  border-radius: 10rem;
+  margin-block-end: 1.2rem;
+}
+
+.yellow-line {
+  width: 1rem;
+  height: 3.203rem;
+  background-color: rgba(230, 177, 10, 1);
+  border-radius: 10rem;
+  margin-block-end: 1.2rem;
+}
+/* Outline implementation ends */
+
+.third-section-one {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3rem;
+}
+
+.third-hedr {
+  color: rgba(27, 30, 29, 1);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-block-end: 0.5rem;
+}
+
+.third-bdy {
+  color: rgba(97, 107, 104, 1);
+}
+
+.third-hedr-btm {
+  color: rgba(27, 30, 29, 1);
+}
+
+.gs-out-button {
+  border: 0 solid;
+  background-color: transparent;
+  color: rgba(23, 51, 45, 1);
+  border: 0.02rem solid rgba(23, 51, 45, 1);
+  padding: 0.625rem 1.563rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.fift-layer-image-container {
+  max-width: 26.688rem;
+}
+
+.fifth-layer-image {
+  width: 100%;
+}
+
+/* The fourth section iteration */
+.fourth-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  /* margin-inline: 9.375rem 9.375rem; */
+  gap: 2.5rem;
+  padding: 3.125rem;
+  background-color: rgba(27, 30, 29, 1);
+  border-radius: 3.125rem;
+}
+
+.ft-image-container {
+  max-width: 27.75rem;
+}
+
+.ft-image {
+  width: 100%;
+}
+
+.f-section-container {
+  max-width: 33rem;
+}
+
+.f-section-head {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 2.75rem;
+  margin-block-end: 1.5rem;
+}
+
+.f-section-body {
+  width: 100%;
+  color: rgba(202, 206, 205, 1);
+  margin-block-end: 1.5rem;
+}
+
+.gs-wt-button-container {
+  display: grid;
+  grid-template-columns: 15rem 15rem;
+  gap: 1rem;
+}
+
+.gs-wt-button {
+  border: 0 solid;
+  background-color: transparent;
+  color: rgba(27, 30, 29, 1);
+  background-color: white;
+  padding: 0.625rem 1.563rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+/* The footer section iteration */
+footer {
+  background-color: white;
+  padding-block: 1.5rem 1.5rem;
+  border-top: 0.01rem solid rgba(242, 242, 242, 1);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-inline: 9.375rem 9.375rem;
+  align-items: center;
 }
