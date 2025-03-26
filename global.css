@@ -18,8 +18,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: auto;
   justify-content: center;
-  margin-inline: 2rem 2rem;
+  margin-inline: 2rem ;
 }
  

@@ -1,14 +1,10 @@
 .middle-layer {
-  /* display: grid; */
-  /* grid-template-columns: auto;
-  justify-items: center; */
-  /* padding-inline: 59rem 59rem; */
-  /* padding-inline: 29% 29%; */
   max-width: 75rem;
 }
 
 /* header section */
 nav {
+  justify-items: center;
   background-color: white;
   padding-block: 1.5rem 1.5rem;
   border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
@@ -18,8 +14,9 @@ nav {
   display: grid;
   grid-template-columns: 5.5rem 2fr 1fr;
   gap: 1rem;
-  margin-inline: 9.375rem 9.375rem;
   align-items: center;
+  /* margin-inline: 55rem 55rem; */
+  max-width: 75rem;
 }
 
 .menu {
@@ -229,20 +226,19 @@ nav {
 .second-section {
   display: grid;
   justify-content: center;
-  justify-items: center;
   gap: 2.5rem;
   padding: 4rem;
   background-color: rgba(23, 51, 45, 1);
   border-radius: 3.125rem;
   margin-block-end: 7rem;
-  /* width: 100%; */
 }
 
 .second-section-main {
-  width: 100%;
+  justify-items: center;
 }
 
 .second-section-texts {
+  margin-block-end: 2rem;
   max-width: 30rem;
 }
 
