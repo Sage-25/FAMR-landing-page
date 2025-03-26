@@ -10,13 +10,18 @@ nav {
   border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
 }
 
+.header-main {
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+  margin-inline: 2rem;
+}
+
 .header-container {
   display: grid;
-  grid-template-columns: 5.5rem 2fr 1fr;
+  grid-template-columns: 5.5rem 1fr 2fr;
   gap: 1rem;
   align-items: center;
-  /* margin-inline: 55rem 55rem; */
-  max-width: 75rem;
 }
 
 .menu {
@@ -38,12 +43,21 @@ nav {
 .home-nav {
   color: rgba(23, 51, 45, 1);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .about-nav,
 .contact-nav,
 .faq-nav {
   color: rgba(148, 158, 155, 1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.about-nav:hover,
+.contact-nav:hover,
+.faq-nav:hover {
+  color: rgb(66, 131, 117);
 }
 
 .login-button {
@@ -51,6 +65,12 @@ nav {
   color: rgba(27, 30, 29, 1);
   font-size: 1rem;
   background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-button:hover {
+  color: rgb(66, 131, 117);
 }
 
 .reg-button {
@@ -59,6 +79,12 @@ nav {
   color: white;
   padding: 0.625rem 1.563rem;
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reg-button:hover {
+  background-color: rgb(59, 114, 102);
 }
 
 /* hero section implementation */
@@ -122,6 +148,12 @@ nav {
   padding: 0.625rem 1.563rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.gs-button:hover {
+  background-color: rgb(59, 114, 102);
 }
 
 .dm-button {
@@ -131,6 +163,12 @@ nav {
   padding: 0.625rem 1.563rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dm-button:hover {
+  background-color: rgb(217, 245, 240);
 }
 
 .arrow-icon {
@@ -174,8 +212,6 @@ nav {
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  /* justify-items: center; */
-  /* margin-inline: 9.375rem 9.375rem; */
   margin-block-end: 7rem;
   gap: 4rem;
 }
@@ -271,10 +307,6 @@ nav {
   border: 0.05rem solid rgba(34, 79, 69, 1);
 }
 
-/* .second-section-one {
-  height: 50vw;
-} */
-
 .third-image-container {
   max-width: 27.063;
   margin-block-end: 2rem;
@@ -338,7 +370,6 @@ nav {
   border: 0.05rem solid rgba(242, 242, 242, 1);
   box-shadow: 0 0.5rem 2.869rem rgba(23, 51, 45, 0.05);
   margin-block-end: 7rem;
-  /* width: 100%; */
 }
 
 .third-section-texts {
@@ -428,6 +459,12 @@ nav {
   padding: 0.625rem 1.563rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.gs-out-button:hover {
+  background-color: rgb(217, 245, 240);
 }
 
 .fift-layer-image-container {
@@ -450,7 +487,6 @@ nav {
   background-color: rgba(27, 30, 29, 1);
   border-radius: 3.125rem;
   margin-block-end: 5rem;
-  /* width: 100%; */
 }
 
 .ft-image-container {
@@ -493,20 +529,30 @@ nav {
   padding: 0.625rem 1.563rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.gs-wt-button:hover {
+  background-color: rgb(230, 227, 227);
 }
 
 /* The footer section iteration */
 footer {
+  justify-items: center;
   background-color: white;
   padding-block: 1.5rem 1.5rem;
   border-top: 0.01rem solid rgba(242, 242, 242, 1);
 }
 
+.footer-main {
+  margin-inline: 2rem;
+}
+
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
   gap: 1rem;
-  margin-inline: 9.375rem 9.375rem;
   align-items: center;
 }
 
@@ -515,8 +561,15 @@ footer {
   grid-template-columns: auto auto;
   justify-content: end;
   gap: 2rem;
+  cursor: pointer;
 }
 
 .tc-text {
   color: rgba(148, 158, 155, 1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tc-text:hover {
+  color: rgb(66, 131, 117);
 }
