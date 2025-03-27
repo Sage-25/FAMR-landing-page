@@ -8,8 +8,123 @@
 .hero-section {
   display: grid;
   justify-content: center;
-  justify-items: center;
   text-align: center;
   margin-block-start: 5rem;
   margin-block-end: 8rem;
+}
+
+.abt-text-section {
+  justify-items: center;
+}
+
+.hero-text-container {
+  margin-block-start: 2rem;
+  max-width: 42rem;
+}
+
+.hero-text-head {
+  width: 100%;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-block-end: 2rem;
+  color: rgba(27, 30, 29, 1);
+}
+
+.hero-text-body {
+  width: 100%;
+  color: rgba(97, 107, 104, 1);
+  margin-block-end: 2.5rem;
+}
+
+.wp-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.wp-checks {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.wp {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wp-section {
+  font-weight: bold;
+  color: rgba(27, 30, 29, 1);
+  margin-inline-end: 1.5rem;
+}
+
+.wp-text-body {
+  color: rgba(148, 158, 155, 1);
+}
+
+/* Second section iteration */
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  margin-block-end: 7rem;
+}
+
+/* .second-section-text-container {
+  max-width: 50rem;
+} */
+
+.second-section-header {
+  font-weight: bold;
+  font-size: 2.75rem;
+  margin-block-end: 1rem;
+  color: rgba(27, 30, 29, 1);
+}
+
+.second-section-body {
+  color: rgba(97, 107, 104, 1);
+}
+
+.mission-image-container {
+  max-width: 28.563;
+  text-align: end;
+}
+
+.mission-image {
+  width: 100%;
+}
+
+/* Third section iteration */
+.third-section {
+  display: grid;
+  justify-items: center;
+}
+
+.third-text-section {
+  display: grid;
+  margin-block-end: 2rem;
+}
+
+.third-section-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.125rem;
+  margin-block-end: 1rem;
+}
+
+.third-section-body {
+  text-align: center;
+  color: rgba(97, 107, 104, 1);
+}
+
+.left-section-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 5rem;
 }
