@@ -1,0 +1,152 @@
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    background-color: white;
+    padding-block: 1.5rem 1.5rem;
+    border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
+    display: grid;
+  }
+
+  .mobile-nav-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin-inline: 2rem;
+  }
+
+  .menu-container {
+    text-align: end;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .hero-section {
+    margin-block-end: 3rem;
+  }
+
+  .hero-text-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .button-container {
+    gap: 0.3rem;
+  }
+
+  .first-section {
+    grid-template-columns: none;
+    margin-block-end: 3rem;
+  }
+
+  .first-section-text-main {
+    order: 1;
+  }
+
+  .first-section-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .first-section-button-container {
+    grid-template-columns: auto auto;
+    gap: 0.3rem;
+  }
+
+  .second-section-header {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .second-section-grid{
+    grid-template-columns: none;
+  }
+
+  .third-section {
+    margin-block-end: 3rem;
+  }
+
+  .third-section-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .first-section-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .third-section-main-text {
+    order: 1;
+  }
+
+  .outline-section {
+    display: none;
+  }
+
+  .third-section-one {
+    grid-template-columns: none;
+  }
+
+  .gs-out-button {
+    width: 100%;
+  }
+
+  .fourth-section{
+    grid-template-columns: none;
+    border-radius: 1.625rem;
+    padding: 2rem;
+  }
+
+  .f-section-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .gs-wt-button-container {
+    grid-template-columns: none;
+  }
+
+  .tc-p-section {
+    gap: 2rem;
+  }
+
+  .tc-text {
+    font-size: 0.75rem;
+  }
+}
+
+/* Second measurement 734px */
+@media (max-width: 734px) {
+  .final-alignment {
+    gap: 0.6rem;
+  }
+
+  .final-text {
+    font-size: 0.75rem;
+  }
+}
+
+/* Third measurement 520px */
+@media (max-width: 520px) {
+  .second-section {
+    border-radius: 1.625rem;
+    padding: 2rem;
+    margin-block-end: 3rem;
+  }
+
+  .second-section-one,
+  .second-section-two {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
+  .third-section {
+    border-radius: 1.625rem;
+    padding: 2rem;
+  }
+}

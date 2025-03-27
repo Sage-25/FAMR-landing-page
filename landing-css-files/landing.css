@@ -10,12 +10,6 @@ nav {
   border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
 }
 
-@media (max-width: 800px) {
-  nav {
-    display: none;
-  }
-}
-
 .header-main {
   display: grid;
   justify-items: center;
@@ -97,26 +91,6 @@ nav {
   display: none;
 }
 
-@media (max-width: 800px) {
-  .mobile-nav {
-    background-color: white;
-    padding-block: 1.5rem 1.5rem;
-    border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
-    display: grid;
-  }
-
-  .mobile-nav-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3rem;
-    margin-inline: 2rem;
-  }
-
-  .menu-container {
-    text-align: end;
-  }
-}
-
 /* hero section implementation */
 .hero-section {
   display: grid;
@@ -125,7 +99,6 @@ nav {
   text-align: center;
   margin-block-start: 5rem;
   margin-block-end: 8rem;
-  /* margin-inline: 9.375rem 9.375rem; */
 }
 
 .farmer-tag-container {
@@ -217,12 +190,6 @@ nav {
   margin-block-end: 5rem;
 }
 
-@media (max-width: 734px) {
-  .final-alignment {
-    gap: 0.6rem;
-  }
-}
-
 .dots {
   height: 0.5rem;
   width: 0.5rem;
@@ -232,12 +199,6 @@ nav {
 
 .final-text {
   color: rgba(148, 158, 155, 1);
-}
-
-@media (max-width: 734px) {
-  .final-text {
-    font-size: 0.75rem;
-  }
 }
 
 .home-image-container {
@@ -256,16 +217,6 @@ nav {
   justify-content: center;
   margin-block-end: 7rem;
   gap: 4rem;
-}
-
-@media (max-width: 800px) {
-  .first-section {
-    grid-template-columns: none;
-  }
-
-  .first-section-text-main {
-    order: 1;
-  }
 }
 
 .first-section-text-container {
@@ -321,13 +272,6 @@ nav {
   margin-block-end: 7rem;
 }
 
-@media (max-width: 520px) {
-  .second-section {
-    border-radius: 1.625rem;
-    padding: 2rem;
-  }
-}
-
 .second-section-main {
   justify-items: center;
 }
@@ -358,26 +302,12 @@ nav {
   gap: 1.625rem;
 }
 
-@media (max-width: 800px) {
-  .second-section-grid{
-    grid-template-columns: none;
-  }
-}
-
 .second-section-one,
 .second-section-two {
   padding: 1.5rem;
   background-color: rgba(26, 60, 53, 1);
   border-radius: 2rem;
   border: 0.05rem solid rgba(34, 79, 69, 1);
-}
-
-@media (max-width: 520px) {
-  .second-section-one,
-  .second-section-two {
-    border-radius: 1rem;
-    padding: 1rem;
-  }
 }
 
 .third-image-container {
@@ -445,13 +375,6 @@ nav {
   margin-block-end: 7rem;
 }
 
-@media (max-width: 520px) {
-  .third-section {
-    border-radius: 1.625rem;
-    padding: 2rem;
-  }
-}
-
 .third-section-texts {
   max-width: 40rem;
 }
@@ -480,21 +403,9 @@ nav {
   gap: 1.5rem;
 }
 
-@media (max-width: 800px) {
-  .third-section-main-text {
-    order: 1;
-  }
-}
-
 /* Ouline implementation start */
 .outline-section {
   margin-inline-end: 1.5rem;
-}
-
-@media (max-width: 800px) {
-  .outline-section {
-    display: none;
-  }
 }
 
 .green-line {
@@ -526,12 +437,6 @@ nav {
   display: grid;
   grid-template-columns: auto auto;
   gap: 3rem;
-}
-
-@media (max-width: 800px) {
-  .third-section-one {
-    grid-template-columns: none;
-  }
 }
 
 .third-hedr {
@@ -587,14 +492,6 @@ nav {
   margin-block-end: 5rem;
 }
 
-@media (max-width: 800px) {
-  .fourth-section{
-    grid-template-columns: none;
-    border-radius: 1.625rem;
-    padding: 2rem;
-  }
-}
-
 .ft-image-container {
   max-width: 27.75rem;
 }
@@ -627,12 +524,6 @@ nav {
   gap: 1rem;
 }
 
-@media (max-width: 800px) {
-  .gs-wt-button-container {
-    grid-template-columns: none;
-  }
-}
-
 .gs-wt-button {
   border: 0 solid;
   background-color: transparent;
@@ -651,14 +542,15 @@ nav {
 
 /* The footer section iteration */
 footer {
-  justify-items: center;
   background-color: white;
   padding-block: 1.5rem 1.5rem;
   border-top: 0.01rem solid rgba(242, 242, 242, 1);
 }
 
 .footer-main {
+  display: grid;
   margin-inline: 2rem;
+  justify-content: center;
 }
 
 .footer-container {
@@ -668,37 +560,17 @@ footer {
   align-items: center;
 }
 
-@media (max-width: 800px) {
-  .footer-container {
-    grid-template-columns: 0.5fr 2.5fr;
-  }
-}
-
 .tc-p-section {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: end;
   gap: 2rem;
   cursor: pointer;
 }
-
-@media (max-width: 800px) {
-  .tc-p-section {
-    gap: 0.5rem;
-  }
-}
-
 
 .tc-text {
   color: rgba(148, 158, 155, 1);
   cursor: pointer;
   transition: 0.2s;
-}
-
-@media (max-width: 800px) {
-  .tc-text {
-    font-size: 0.75rem;
-  }
 }
 
 .tc-text:hover {
