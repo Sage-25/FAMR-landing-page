@@ -103,6 +103,12 @@
 .third-section {
   display: grid;
   justify-items: center;
+  padding: 4rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3.125rem;
+  border: 0.05rem solid rgba(242, 242, 242, 1);
+  box-shadow: 0 0.5rem 2.869rem rgba(23, 51, 45, 0.05);
+  margin-block-end: 7rem;
 }
 
 .third-text-section {
@@ -126,5 +132,118 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
+}
+
+.left-section {
+  display: grid;
+  gap: 2rem;
+  max-width: 35rem;
+}
+
+.number-outline {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem;
+  align-items: center;
+  margin-block-end: 0.7rem;
+}
+
+.left-numbers {
+  color: rgba(27, 30, 29, 1);
+  font-weight: bold;
+  font-size: 2.125rem;
+  width: 100%;
+}
+
+.third-line {
+  height: 0.3rem;
+  width: 25.188rem;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 5rem;
+  width: 70%;
+}
+
+.third-body-text {
+  width: 100%;
+  font-size: 2.125rem;
+  color: rgba(97, 107, 104, 1);
+}
+
+.bold-text {
+  width: 100%;
+  font-weight: bold;
+  color: rgba(27, 30, 29, 1);
+}
+
+.right-image-section {
+  max-width: 26.688rem;
+}
+
+.right-image {
+  width: 100%;
+}
+
+/* Final section iteration */
+.final-section {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 2.5rem;
+  padding: 4rem;
+  background-color: rgba(23, 51, 45, 1);
+  border-radius: 3.125rem;
+  margin-block-end: 7rem;
+}
+
+.final-text-section {
+  max-width: 30rem;
+}
+
+.final-header {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.125rem;
+  margin-block-end: 1rem;
+  width: 100%;
+}
+
+.final-body {
+  color: rgba(149, 208, 195, 1);
+  text-align: center;
+}
+
+.value-left-right-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.value-left-side,
+.value-right-side {
+  display: grid;
+  gap: 1rem;
+}
+
+.value-section {
+  padding: 2rem;
+  background-color: rgba(26, 60, 53, 1);
+  border: 0.02rem solid rgba(34, 79, 69, 1);
+  border-radius: 2rem;
+}
+
+.v-icons {
+  margin-block-end: 1rem;
+}
+
+.v-header {
+  color: white;
+  font-weight: bold;
+  font-size: 1.625rem;
+  margin-block-end: 0.7rem;
+}
+
+.v-body {
+  color: rgba(184, 224, 215, 1);
 }
