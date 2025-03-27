@@ -1,0 +1,15 @@
+.about-nav {
+  color: rgba(23, 51, 45, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* hero section iteration */
+.hero-section {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin-block-start: 5rem;
+  margin-block-end: 8rem;
+}
