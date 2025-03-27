@@ -1,30 +1,4 @@
 @media (max-width: 800px) {
-  nav {
-    display: none;
-  }
-  .mobile-nav {
-    background-color: white;
-    padding-block: 1.5rem 1.5rem;
-    border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
-    display: grid;
-  }
-
-  .mobile-nav-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3rem;
-    margin-inline: 2rem;
-  }
-
-  .menu-container {
-    text-align: end;
-  }
-
-  .menu-icon {
-    cursor: pointer;
-    transition: 0.2s;
-  }
-
   .hero-section {
     margin-block-end: 3rem;
     margin-block-start: 3rem;
@@ -95,29 +69,6 @@
 
   .gs-out-button {
     width: 100%;
-  }
-
-  .fourth-section{
-    grid-template-columns: none;
-    border-radius: 1.625rem;
-    padding: 2rem;
-  }
-
-  .f-section-head {
-    font-size: 1.625rem;
-    line-height: 2rem;
-  }
-
-  .gs-wt-button-container {
-    grid-template-columns: none;
-  }
-
-  .tc-p-section {
-    gap: 2rem;
-  }
-
-  .tc-text {
-    font-size: 0.75rem;
   }
 }
 

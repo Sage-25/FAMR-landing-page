@@ -21,4 +21,253 @@ main {
   justify-content: center;
   margin-inline: 2rem;
 }
- 
+
+section {
+  max-width: 75rem;
+}
+
+/* header section */
+nav {
+  justify-items: center;
+  background-color: white;
+  padding-block: 1.5rem 1.5rem;
+  border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
+}
+
+.header-main {
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+  margin-inline: 2rem;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem 5rem;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.header-button {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  align-items: center;
+  justify-content: end;
+}
+
+.home-nav {
+  color: rgba(23, 51, 45, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-nav,
+.contact-nav,
+.faq-nav {
+  color: rgba(148, 158, 155, 1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.about-nav:hover,
+.contact-nav:hover,
+.faq-nav:hover {
+  color: rgb(66, 131, 117);
+}
+
+.login-button {
+  border: 0 solid;
+  color: rgba(27, 30, 29, 1);
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-button:hover {
+  color: rgb(66, 131, 117);
+}
+
+.reg-button {
+  border: 0 solid;
+  background-color: rgba(23, 51, 45, 1);
+  color: white;
+  padding: 0.625rem 1.563rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reg-button:hover {
+  background-color: rgb(59, 114, 102);
+}
+
+.mobile-nav {
+  display: none;
+}
+/*header section ends*/
+
+/* The fourth section iteration */
+.fourth-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 2.5rem;
+  padding: 3.125rem;
+  background-color: rgba(27, 30, 29, 1);
+  border-radius: 3.125rem;
+  margin-block-end: 5rem;
+}
+
+.ft-image-container {
+  max-width: 27.75rem;
+}
+
+.ft-image {
+  width: 100%;
+}
+
+.f-section-container {
+  max-width: 33rem;
+}
+
+.f-section-head {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 2.75rem;
+  margin-block-end: 1.5rem;
+}
+
+.f-section-body {
+  width: 100%;
+  color: rgba(202, 206, 205, 1);
+  margin-block-end: 1.5rem;
+}
+
+.gs-wt-button-container {
+  display: grid;
+  grid-template-columns: 15rem 15rem;
+  gap: 1rem;
+}
+
+.gs-wt-button {
+  border: 0 solid;
+  background-color: transparent;
+  color: rgba(27, 30, 29, 1);
+  background-color: white;
+  padding: 0.625rem 1.563rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.gs-wt-button:hover {
+  background-color: rgb(230, 227, 227);
+}
+
+/* The fourth section iteration ends */
+
+
+/* The footer section iteration */
+footer {
+  background-color: white;
+  padding-block: 1.5rem 1.5rem;
+  border-top: 0.01rem solid rgba(242, 242, 242, 1);
+}
+
+.footer-main {
+  display: grid;
+  margin-inline: 2rem;
+  justify-content: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.tc-p-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.tc-text {
+  color: rgba(148, 158, 155, 1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tc-text:hover {
+  color: rgb(66, 131, 117);
+}
+
+/* The footer section iteration ends */
+
+/* Media quary starts here */
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    background-color: white;
+    padding-block: 1.5rem 1.5rem;
+    border-bottom: 0.01rem solid rgba(242, 242, 242, 1);
+    display: grid;
+  }
+
+  .mobile-nav-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin-inline: 2rem;
+  }
+
+  .menu-container {
+    text-align: end;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .fourth-section{
+    grid-template-columns: none;
+    border-radius: 1.625rem;
+    padding: 2rem;
+  }
+
+  .f-section-head {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .gs-wt-button-container {
+    grid-template-columns: none;
+  }
+
+  .tc-p-section {
+    gap: 2rem;
+  }
+
+  .tc-text {
+    font-size: 0.75rem;
+  }
+}
