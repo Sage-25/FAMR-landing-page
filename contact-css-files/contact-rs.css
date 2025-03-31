@@ -1,0 +1,35 @@
+@media (max-width: 800px) {
+  .contact-section {
+    grid-template-columns: none;
+    padding-inline: 2rem;
+    border-radius: 1.625rem;
+  }
+
+  .ct-section-main {
+    grid-template-columns: none;
+  }
+
+  .ct-hero-section {
+    margin-block-start: 2rem;
+    margin-block-end: 4rem;
+  }
+
+  .form-container {
+    margin-block-end: 4rem;
+  }
+
+  .name-container {
+    grid-template-columns: none;
+  }
+
+  .form-container {
+    padding: 2rem;
+    border-radius: 1.625rem;
+  }
+
+  .hero-header {
+    font-size: 1.625rem;
+  }
+
+  
+}
