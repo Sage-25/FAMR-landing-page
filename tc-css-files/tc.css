@@ -1,0 +1,52 @@
+.tc-text-one {
+  color: rgba(23, 51, 45, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tc-hero-section {
+  display: grid;
+  justify-items: center;
+  margin-block-start: 4rem;
+  margin-block-end: 4rem;
+}
+
+.tc-text-section {
+  justify-items: center;
+}
+
+.hero-header {
+  font-weight: bold;
+  font-size: 2.75rem;
+  text-align: center;
+  margin-block-start: 2rem;
+  color: rgba(27, 30, 29, 1);
+}
+
+/* Terms and conditions complete container */
+.tc-main-container {
+  background-color: white;
+  padding: 3.125rem;
+  border-radius: 2rem;
+  border: 0.02rem solid rgba(242, 242, 242, 1);
+  box-shadow: 0 0.5rem 2.869rem rgba(23, 51, 45, 0.05);
+  margin-block-end: 5rem;
+}
+
+.tc-complete-content {
+  display: grid;
+  gap: 1rem;
+  margin-block-end: 2rem;
+}
+
+.tc-main-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(27, 30, 29, 1);
+}
+
+.tc-main-body {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: rgba(148, 158, 155, 1);
+}

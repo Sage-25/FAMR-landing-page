@@ -1,6 +1,7 @@
 p,
 h1,
 a,
+li,
 button {
   margin: 0;
   padding: 0;
@@ -208,6 +209,7 @@ footer {
   cursor: pointer;
 }
 
+.tc-text-one,
 .tc-text {
   color: rgba(148, 158, 155, 1);
   cursor: pointer;

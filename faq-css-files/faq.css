@@ -26,7 +26,6 @@
 /* Faq-section-drop-down-iteration */
 .faq-drop-downs {
   display: grid;
-  width: 100%;
 }
 
 .faq-section-header {

@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .hero-header {
+    font-size: 1.625rem;
+  }
+
+  .pp-hero-section {
+    margin-block-end: 2rem;
+  }
+
+  .pp-main-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.625rem;
+    margin-block-end: 2rem;
+  }
+}
