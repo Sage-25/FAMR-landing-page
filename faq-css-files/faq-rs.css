@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  .hero-header {
+    font-size: 1.625rem;
+  }
+
+  .faq-complete-container {
+    margin-block-end: 2rem;
+  }
+}
