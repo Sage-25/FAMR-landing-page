@@ -31,5 +31,7 @@
     font-size: 1.625rem;
   }
 
-  
+  .hero-header-container {
+    margin-block-end: 2rem;
+  }
 }
