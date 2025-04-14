@@ -49,6 +49,11 @@ nav {
   align-items: center;
 }
 
+.hyperlink-container {
+  color: inherit;
+  text-decoration: none;
+}
+
 .menu {
   display: grid;
   grid-template-columns: 5rem 5rem 5rem 5rem;
